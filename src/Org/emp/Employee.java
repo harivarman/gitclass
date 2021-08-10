@@ -6,8 +6,12 @@ public class Employee {
 	}
 	private void empName() {
 		System.out.println("Emp Name");
+	}
+	private void empno() {
+		System.out.println("Emp Number");
 
 	}
+
 	private void emplandline() {
 		System.out.println("Emp Landline");
 
@@ -19,6 +23,7 @@ public class Employee {
 		E1.empID();
 		E1.empName();
 		E1.emplandline();
+		E1.empno();
 		
 	}
 	
